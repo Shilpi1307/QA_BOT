@@ -1,0 +1,7 @@
+streamlit
+cohere
+pinecone-client
+PyMuPDF
+pickle-mixin
+python-dotenv
+utils
