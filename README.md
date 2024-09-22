@@ -28,19 +28,19 @@ This project implements a QA bot that can answer questions about uploaded docume
 4.**Deployment:** GitHub repository and Docker-based deployment<br>
 
 ## Setup Instructions<br>
-1.** Clone the Repository<br>**
+1.**Clone the Repository**<br>
 git clone https://github.com/Shilpi1307/QA_BOT.git<br>
 cd QA_BOT<br>
-2. **Create and Activate Virtual Environment<br>**
+2.**Create and Activate Virtual Environment**<br>
 python -m venv venv<br>
 source venv/bin/activate  # On Windows use: venv\Scripts\activate<br>
-3. Install Dependencies<br>
+3. **Install Dependencies**<br>
 pip install -r requirements.txt<br>
-4. Set Up Cohere API Key<br>
+4. **Set Up Cohere API Key**<br>
 You will need a Cohere API key to run this project. Obtain the API key from Cohere's website. Once you have it, you can either:<nr>
 Set it as an environment variable:<br>
 export COHERE_API_KEY=your-api-key<br>
-5. Set Up Pinecone <br>
+5. **Set Up Pinecone** <br>
 If you are using Pinecone as your vector database, you will need to initialize Pinecone with an API key. Follow Pinecone’s documentation to set it up: Pinecone Documentation https://docs.pinecone.io/guides/get-started/quickstart#next-steps.
 
 ## Usage Instructions<br>
