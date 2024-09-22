@@ -28,10 +28,10 @@ This project implements a QA bot that can answer questions about uploaded docume
 4.**Deployment:** GitHub repository and Docker-based deployment<br>
 
 ## Setup Instructions<br>
-1. Clone the Repository<br>
+1.** Clone the Repository<br>**
 git clone https://github.com/Shilpi1307/QA_BOT.git<br>
 cd QA_BOT<br>
-2. Create and Activate Virtual Environment<br>
+2. **Create and Activate Virtual Environment<br>**
 python -m venv venv<br>
 source venv/bin/activate  # On Windows use: venv\Scripts\activate<br>
 3. Install Dependencies<br>
